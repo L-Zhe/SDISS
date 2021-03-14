@@ -126,11 +126,11 @@ class Model(nn.Module):
 
             totalProb, index = prob.view(batch_size, -1).topk(beam, dim=-1, largest=True)
             # prob, index: [batch_size, beam]
-            
             word = index % self.d_vocab
-            index /= self.d_vocab
+            index //= self.d_vocab
+            # print(index.dtype)
             EOS_index = EOS_index.gather(dim=-1, index=index)
-            EOS_index |= (word==EOS)
+            EOS_index |= (word == EOS)
             if EOS_index.sum() == batch_size * beam:
                 break
             
