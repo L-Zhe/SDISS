@@ -27,10 +27,15 @@ In order to reduce the vocabulary size, we tag words with their named entities u
 
 ## Training
 
-All configuration of training step are shown in the *Parameter.py*. We will generate the validation data and evaluate the result pre epoch. In our code, we have provide *BLEU* and *FKGL* metrices. For *SARI*, you need to set up according to [here](https://github.com/XingxingZhang/dress/tree/master/experiments/evaluation/SARI), and change the path in *eval.py*
+All configurations of the training step are shown in the *Parameter.py*. We will generate the validation data and evaluate the result after each epoch training. In our code, we have provided *BLEU* and *FKGL* metrics. For *SARI*, you need to set up according to [here](https://github.com/XingxingZhang/dress/tree/master/experiments/evaluation/SARI), and change the path in *eval.py*. Then, you should run the follow code to start training model.
 
-Notice that, due to the problem of encoding, the FKGL we provided may be a bit different with the previous version and can only as a reference. We final calculate the FKGL score followed [here](https://github.com/yuedongP/EditNTS/blob/master/utils/fkgl.py) on python2.
+
+```python
+python main.py
+```
+
+Notice that, due to the problem of encoding of python2 and python3, the FKGL we provided may be a bit different from the previous version and can only as a reference. We final calculate the FKGL score followed [here](https://github.com/yuedongP/EditNTS/blob/master/utils/fkgl.py) on python2.
 
 ## Test
 
-We provide all models of three benchmark and the correspond results on [release page](https://github.com/L-Zhe/SDISS/releases/tag/1.0).
+We provide all models of three benchmark and the correspond results on [result](https://github.com/L-Zhe/SDISS/tree/main/Result) and [release page](https://github.com/L-Zhe/SDISS/releases/tag/1.0).
