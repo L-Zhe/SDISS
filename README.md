@@ -38,4 +38,4 @@ Notice that, due to the problem of encoding of python2 and python3, the FKGL we 
 
 ## Test
 
-We provide all models of three benchmark and the correspond results on [result](https://github.com/L-Zhe/SDISS/tree/main/Result) and [release page](https://github.com/L-Zhe/SDISS/releases/tag/1.0).
+We provide pre-trained models of three benchmark and the correspond results on [result](https://github.com/L-Zhe/SDISS/tree/main/Result) and [release page](https://github.com/L-Zhe/SDISS/releases/tag/1.0).
