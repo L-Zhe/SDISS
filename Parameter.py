@@ -7,7 +7,7 @@ device     = torch.device("cuda:0" if USE_CUDA else "cpu")
 LongTensor = torch.cuda.LongTensor if USE_CUDA else torch.LongTensor
 data_set = 'newsela'
 if data_set == 'newsela':
-    dataRoot    = '/home/linzhe/data/simplification/newsela/'
+    dataRoot    = './data/simplification/newsela/'
     trainSrcOri = dataRoot + 'V0V4_V1V4_V2V4_V3V4_V0V3_V0V2_V1V3.aner.ori.train.src'
     validSrcOri = dataRoot + 'V0V4_V1V4_V2V4_V3V4_V0V3_V0V2_V1V3.aner.ori.valid.src'
     testSrcOri  = dataRoot + 'V0V4_V1V4_V2V4_V3V4_V0V3_V0V2_V1V3.aner.ori.test.src'
@@ -25,7 +25,7 @@ if data_set == 'newsela':
     t_max       = 15
 
 elif data_set == 'wikismall':
-    dataRoot    = '/home/linzhe/data/simplification/wikismall/'
+    dataRoot    = './data/simplification/wikismall/'
     trainSrcOri = dataRoot + 'PWKP_108016.tag.80.aner.ori.train.src'
     validSrcOri = dataRoot + 'PWKP_108016.tag.80.aner.ori.valid.src'
     testSrcOri  = dataRoot + 'PWKP_108016.tag.80.aner.ori.test.src'
@@ -43,7 +43,7 @@ elif data_set == 'wikismall':
     t_max       = 20
 
 else:
-    dataRoot    = '/home/linzhe/data/simplification/wikilarge/'
+    dataRoot    = './data/simplification/wikilarge/'
     trainSrcOri = dataRoot + 'wiki.full.aner.ori.train.src'
     validSrcOri = dataRoot + 'wiki.full.aner.ori.valid.src'
     testSrcOri  = dataRoot + 'wiki.full.aner.ori.test.src'
