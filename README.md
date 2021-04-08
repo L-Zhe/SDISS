@@ -4,7 +4,7 @@ Code for paper Neural Sentence Simplification with Semantic Dependency Informati
 
 ## Structure
 
-![image](https://github.com/L-Zhe/SDISS/blob/main/img/overview.jpg?raw=true#pic_center){:height="10%" width="10%"}
+<img src="https://github.com/L-Zhe/SDISS/blob/main/img/overview.jpg?raw=true" width = "700" alt="overview" align=center />
 
 ## System Output
 
@@ -62,5 +62,7 @@ Our code only provide SARI with one reference. The WikiLarge which containing wi
 
 ## Results
 
-![image](https://github.com/L-Zhe/SDISS/blob/main/img/result.jpg?raw=true#pic_center){:height="50%" width="50%"}
+<img src="https://github.com/L-Zhe/SDISS/blob/main/img/result.jpg?raw=true" width = "700" alt="overview" align=center />
+
+
 
