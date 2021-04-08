@@ -1,6 +1,14 @@
-# SDISS
+# Neural Sentence Simplification with Semantic Dependency Information
 
 Code for paper Neural Sentence Simplification with Semantic Dependency Information by Zhe Lin, Xiaojun Wan. This paper is accepted by AAAI'21. Please contact me at [linzhe@pku.edu.cn](tomail:linzhe@pku.edu.cn) for any question.
+
+## Structure
+
+![image](https://github.com/L-Zhe/SDISS/tree/main/img/overview.jpg)
+
+## System Output
+
+If you are looking for system output and don't bother to install dependencies and train a model (or run a pre-trained model), the `Result` folder is for you.
 
 ## Dependencies
 
@@ -10,6 +18,8 @@ NLTK 3.5
 stanfordcorenlp
 tqdm 4.59.0
 ```
+
+We provide *SARI* metric in our code, you need to set up according to [here](https://github.com/XingxingZhang/dress/tree/master/experiments/evaluation/SARI), and change the path in ``eval.py``. 
 
 ## Datasets
 
@@ -27,15 +37,30 @@ In order to reduce the vocabulary size, we tag words with their named entities u
 
 ## Training
 
-All configurations of the training step are shown in the *Parameter.py*. We will generate the validation data and evaluate the result after each epoch training. In our code, we have provided *BLEU* and *FKGL* metrics. For *SARI*, you need to set up according to [here](https://github.com/XingxingZhang/dress/tree/master/experiments/evaluation/SARI), and change the path in *eval.py*. Then, you should run the follow code to start training model.
+All configurations of the training step are shown in the ``Parameter.py``. We will generate the validation data and evaluate the result after each epoch training.  
+
+Changing the **mode** in ``Parameter.py`` into **train**, then run the following code to start training model.
 
 
 ```python
 python main.py
 ```
 
-Notice that, due to the problem of encoding of python2 and python3, the FKGL we provided may be a bit different from the previous version and can only as a reference. We final calculate the FKGL score followed [here](https://github.com/yuedongP/EditNTS/blob/master/utils/fkgl.py) on python2.
-
 ## Test
 
-We provide pre-trained models of three benchmark and the correspond results on [result](https://github.com/L-Zhe/SDISS/tree/main/Result) and [release page](https://github.com/L-Zhe/SDISS/releases/tag/1.0).
+Change the **mode** in ``Parameter.py`` into **test** to begin inference.
+
+We provide pre-trained models of three benchmark datasets [release page](https://github.com/L-Zhe/SDISS/releases/tag/1.0).
+
+## Evaluation
+
+We provide *SARI*, *BLEU* and *FKGL* evaluation metrics in our code. 
+
+Notice that, due to the problem of encoding of python2 and python3, the FKGL we provided may be a bit different from the previous version and can only as a reference. We final calculate the FKGL score followed [here](Notice that, due to the problem of encoding of python2 and python3, the FKGL we provided may be a bit different from the previous version and can only as a reference. We final calculate the FKGL score followed [here](https://github.com/yuedongP/EditNTS/blob/master/utils/fkgl.py) on python2.) on python2.
+
+Our code only provide SARI with one reference. The WikiLarge which containing with 8 references should be evaluated as [here](https://github.com/XingxingZhang/dress/tree/master/experiments/evaluation/SARI).
+
+## Results
+
+![image](https://github.com/L-Zhe/SDISS/tree/main/img/result.jpg)
+
