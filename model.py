@@ -1,4 +1,4 @@
-from    SemSS.Model import SemSS
+from    SDISS.Model import SemSS
 import  Parameter
 
 def createModel(sentence_vocab_size, graph_vocab_size):

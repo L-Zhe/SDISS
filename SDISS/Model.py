@@ -1,10 +1,10 @@
 import  torch
 from    torch import nn
 from    torch.nn import functional as F
-from    SemSS.EncoderDecoder import EncoderCell, DecoderCell, PositionWiseFeedForwardNetworks
-from    SemSS.Embedding import Embedding
-from    SemSS.Attention import MultiHeadAttention
-from    SemSS.GCN import SEGCN
+from    SDISS.EncoderDecoder import EncoderCell, DecoderCell, PositionWiseFeedForwardNetworks
+from    SDISS.Embedding import Embedding
+from    SDISS.Attention import MultiHeadAttention
+from    SDISS.GCN import SEGCN
 from    numpy import inf
 from    copy import deepcopy
 

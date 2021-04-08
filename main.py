@@ -5,7 +5,7 @@ from    torch.utils.data import DataLoader
 import  Parameter
 from    Parameter import device
 from    model import createModel
-from    SemSS.Optim import WarmUpOpt, LabelSmoothing
+from    SDISS.Optim import WarmUpOpt, LabelSmoothing
 from    checkpoint import CheckPoint, saveOutput, loadModel
 from    run import fit
 from    eval import eval_score
