@@ -4,7 +4,7 @@ Code for paper Neural Sentence Simplification with Semantic Dependency Informati
 
 ## Structure
 
-<img src="https://github.com/L-Zhe/SDISS/blob/main/img/overview.jpg?raw=true" width = "700" alt="overview" align=center />
+<img src="https://github.com/L-Zhe/SDISS/blob/main/img/overview.jpg?raw=true" width = "600" alt="overview" align=center />
 
 ## System Output
 
