@@ -46,7 +46,7 @@ Changing the **mode** in ``Parameter.py`` into **train**, then run the following
 python main.py
 ```
 
-## Test
+## Inference
 
 Change the **mode** in ``Parameter.py`` into **test** to begin inference.
 
