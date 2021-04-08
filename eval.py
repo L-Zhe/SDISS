@@ -60,7 +60,7 @@ if __name__ == '__main__':
     # eval_score('/home/linzhe/1.src', '/home/linzhe/1.tgt', 
             #    '/home/linzhe/Project/wikismall_editnts.txt')
     # sysdir= '/home/linzhe/Project/test/gcn_copy_wikilarge_lentok_copyloss/output/log/epoch_0/test'
-    sysdir = '/home/linzhe/Project/SemSS/wikilarge/log/epoch_1/test'
+    sysdir = '/home/linzhe/Project/SDISS/wikilarge/log/epoch_1/test'
     input = '/home/linzhe/simplification/data/turkcorpus/test.8turkers.tok.norm'
     ref   = '/home/linzhe/simplification/data/turkcorpus/test.8turkers.tok.turk'
     print(corpus_sari8(input, ref, sysdir))

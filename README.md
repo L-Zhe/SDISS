@@ -1,6 +1,6 @@
 # Neural Sentence Simplification with Semantic Dependency Information
 
-Code for paper Neural Sentence Simplification with Semantic Dependency Information by Zhe Lin, Xiaojun Wan. This paper is accepted by AAAI'21. Please contact me at [linzhe@pku.edu.cn](tomail:linzhe@pku.edu.cn) for any question.
+Code for paper Neural Sentence Simplification with Semantic Dependency Information by Zhe Lin, Xiaojun Wan. This paper is accepted by AAAI'21. Please contact me at [linzhe@pku.edu.cn](mailto:linzhe@pku.edu.cn) for any question.
 
 ## Structure
 
@@ -33,9 +33,9 @@ Note that, the copyright of the *Newsela* belongs to  https://newsela.com, we on
 
 We provide all preprocessed data of *Newsela*, *WikiSmall* and *WikiLarge* on [release page](https://github.com/L-Zhe/SDISS/releases/tag/1.0). 
 
-In order to reduce the vocabulary size, we tag words with their named entities using the [Stanford CoreNLP tool](https://stanfordnlp.github.io/CoreNLP/) (Manning et al. 2014), and anonymize with NE@N token, N indicates NE@N is the N-th distinct NE typed entity. If you want to leverage your own datasets, please employ *NER.py* to replace *Named-entity* in the sentence. You must provide SDP graph of datasets yourself in accordance with the format of SDP graph data in the file.
+In order to reduce the vocabulary size, we tag words with their named entities using the [Stanford CoreNLP tool](https://stanfordnlp.github.io/CoreNLP/) (Manning et al. 2014), and anonymize with NE@N token, N indicates NE@N is the N-th distinct NE typed entity. If you want to leverage your own datasets, please employ ``NER.py`` to replace *Named-entity* in the sentence. You must provide SDP graph of datasets yourself in accordance with the format of SDP graph data in the file.
 
-## Training
+## Train
 
 All configurations of the training step are shown in the ``Parameter.py``. We will generate the validation data and evaluate the result after each epoch training.  
 
@@ -46,7 +46,7 @@ Changing the **mode** in ``Parameter.py`` into **train**, then run the following
 python main.py
 ```
 
-## Test
+## Inference
 
 Change the **mode** in ``Parameter.py`` into **test** to begin inference.
 
