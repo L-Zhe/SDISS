@@ -62,7 +62,7 @@ Our code only provide SARI with one reference. The WikiLarge which containing wi
 
 ## Results
 
-<img src="https://github.com/L-Zhe/SDISS/blob/main/img/result.jpg?raw=true" width = "700" alt="overview" align=center />
+<img src="https://github.com/L-Zhe/SDISS/blob/main/img/result.jpg?raw=true" width = "400" alt="overview" align=center />
 
 
 
