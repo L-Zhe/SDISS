@@ -66,3 +66,13 @@ Our code only provide SARI with one reference. The WikiLarge which containing wi
 
 
 
+## Reference
+
+```
+@article{lin2021simplification,
+  title={Neural Sentence Simplification with Semantic Dependency Information},
+  author={Zhe Lin, Xiaojun Wan},
+  journal={AAAI Workshop on Deep Learning on Graphs: Methods and Applications},
+  year={2021}
+}
+```
