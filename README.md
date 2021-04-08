@@ -68,6 +68,8 @@ Our code only provide SARI with one reference. The WikiLarge which containing wi
 
 ## Reference
 
+If you use any content of this repo for your work, please cite the following bib entry:
+
 ```
 @article{lin2021simplification,
   title={Neural Sentence Simplification with Semantic Dependency Information},
