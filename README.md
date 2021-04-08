@@ -56,7 +56,7 @@ We provide pre-trained models of three benchmark datasets [release page](https:/
 
 We provide *SARI*, *BLEU* and *FKGL* evaluation metrics in our code. 
 
-Notice that, due to the problem of encoding of python2 and python3, the FKGL we provided may be a bit different from the previous version and can only as a reference. We final calculate the FKGL score followed [here](Notice that, due to the problem of encoding of python2 and python3, the FKGL we provided may be a bit different from the previous version and can only as a reference. We final calculate the FKGL score followed [here](https://github.com/yuedongP/EditNTS/blob/master/utils/fkgl.py) on python2.) on python2.
+Notice that, due to the problem of encoding of python2 and python3, the FKGL we provided may be a bit different from the previous version and can only as a reference. We final calculate the FKGL score followed [here](https://github.com/XingxingZhang/dress/tree/master/dress/scripts/readability) on python2.
 
 Our code only provide SARI with one reference. The WikiLarge which containing with 8 references should be evaluated as [here](https://github.com/XingxingZhang/dress/tree/master/experiments/evaluation/SARI).
 
