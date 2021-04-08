@@ -77,6 +77,7 @@ modelPath      = './output/Model/';      modelFile = 'Newsela_model.pth'
 outputPath     =  './output/result/';    outputFile = 'result.txt'
 debugFile      =  './log/'
 
+# 
 mode          = 'test'
 min_freq      = 2
 EPOCH         = 30
