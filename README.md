@@ -25,7 +25,7 @@ We provide *SARI* metric in our code, you need to set up according to [here](htt
 
 We provided the original and  preprocessed datasets on [release page](https://github.com/L-Zhe/SDISS/releases/tag/1.0), include *Newsela*, *WikiSmall* and *WikiLarge*. You can also get them on [*Newsela*](https://newsela.com), [*WikiSmall* and *WikiLarge*](https://github.com/louismartin/dress-data/raw/master/data-simplification.tar.bz2)
 
-8 references *WikiLarge* test set can be downloaded here https://github.com/cocoxu/simplification/tree/master/data/turkcorpus
+8 references *WikiLarge* test set can be downloaded [here](https://github.com/cocoxu/simplification/tree/master/data/turkcorpus).
 
 Note that, the copyright of the *Newsela* belongs to  https://newsela.com, we only provide it as research apporaches. **For any purpose of using these datasets beyond academic research please contacts newsela.com.**
 
