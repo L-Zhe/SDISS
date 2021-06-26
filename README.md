@@ -1,6 +1,6 @@
 # Neural Sentence Simplification with Semantic Dependency Information
 
-Code for paper Neural Sentence Simplification with Semantic Dependency Information by Zhe Lin, Xiaojun Wan. This paper is accepted by AAAI'21. Please contact me at [linzhe@pku.edu.cn](mailto:linzhe@pku.edu.cn) for any question.
+Code for paper [Neural Sentence Simplification with Semantic Dependency Information by Zhe Lin, Xiaojun Wan](https://ojs.aaai.org/index.php/AAAI/article/view/17578). This paper is accepted by AAAI'21. Please contact me at [linzhe@pku.edu.cn](mailto:linzhe@pku.edu.cn) for any question.
 
 ## Structure
 
